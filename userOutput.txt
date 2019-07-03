@@ -1,0 +1,18 @@
+{
+  "waypoints":[
+    {
+      "name":"Berlin",
+      "latitude":11,
+      "longitude":22
+    }
+  ],
+  "pois":[
+    {
+      "name":"Mensa",
+      "latitude":22,
+      "longitude":11,
+      "type":"RESTAURANT",
+      "description":"The Best Mensa"
+    }
+  ]
+}

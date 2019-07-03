@@ -1,0 +1,4 @@
+GASSTATION;ARAL;Research University in the city of Darmstadt;49.8748;8.65617
+UNIVERSITY;FUA;A university in Frankfurt;50.1297;8.69323
+TOURISTIC;HeidelbergCastle;Its Beautiful;49.4106;8.71527
+UNIVERSITY;TUD;Research University in the city of Darmstadt;49.8748;8.65617

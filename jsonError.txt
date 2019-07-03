@@ -1,0 +1,42 @@
+{ 
+  "waypoints": [ 
+    { 
+      "name": "Amsterdam", 
+      "latitude": 52.3731, 
+      "longitude": 4.8922 
+    } 
+    { 
+      "name": "Berlin", 
+      "latitude": 52.5166, 
+      "longitude": 13.4 
+    , 
+    { 
+      "name": "Darmstadt", 
+      "latitude": 49.85, 
+      "longitude": 8.6527 
+    } 
+  ], 
+  "pois":[ 
+    { 
+      "name": "Dieburg", 
+      "latitude": 52.51, 
+      "longitude": 13.4, 
+      "type": "Restaurant", 
+      "description": "Dieburg City Center" 
+    }, 
+    { 
+      "name": "Mensa HDA", 
+      "latitude": 10, 
+      "longitude": 20, 
+      "type": "Restaurant", 
+      "description": "The best Mensa in the world" 
+    }, 
+    { 
+      "name": "Sitte", 
+      "latitude": 11, 
+      "longitude": 22, 
+      "type": "Restaurant", 
+      "description": "More expensive but also good" 
+    }
+   ]
+}

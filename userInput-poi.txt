@@ -1,0 +1,14 @@
+TOURISTIC,HeidelbergCastle,Its Beautiful,49.410613,8.715266
+TOURISTIC,HeidelbergCastle,Its Beautiful,,49.410613,8.715266
+TOURISTIC,HeidelbergCastle,Its Beautiful,,8.715266
+TOURISTIC,77,Its Beautiful,49.410613,8.715266
+UNIVERSITY,FUA,A university in Frankfurt,50.129740,8.693230
+AAAAAAAA,FUA,A university in Frankfurt,50.129740,8.693230
+UNIVERSITY,FUA,A university in Frankfurt,5@0.129740,8.693230
+UNIVERSITY,FUA,A university in Frankfurt,50.129740,8.6a93230
+UNIVERSITY,FUA,A university in Frankfurt,50.129740,228.693230
+UNIVERSITY,FUA,A university in Frankfurt,50..129740,8.693230
+UNIVERSITY,TUD,Research University in the city of Darmstadt,49.874779,8.656171
+UNIVERSITY,@##,Research University in the city of Darmstadt,49.874779,8.656171
+GASSTATION,ARAL,Research University in the city of Darmstadt,49.874779,8.656171
+GASSTA@ION,ARAL,Research University in the city of Darmstadt,49.874779,8.656171

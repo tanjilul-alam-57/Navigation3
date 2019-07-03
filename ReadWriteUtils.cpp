@@ -1,0 +1,91 @@
+
+
+#include "ReadWriteUtils.h"
+#include <sstream>
+
+
+using namespace std;
+
+
+
+bool checkEnum(string s,t_poi& poitype)
+{
+	//Changing the characters of the string to upper case
+	for(unsigned int i=0;i<s.length();i++)
+	{
+		if(!isalpha(s[i]))
+		{
+			poitype =  NOTYPE;
+			return false;
+		}
+		s[i]=toupper(s[i]);
+
+	}
+
+	//comparing string with predefined poi types and
+	//returning corresponding enum
+	if(s=="RESTAURANT")
+	{
+		poitype =  RESTAURANT;
+		return true;
+	}
+	else if(!s.compare("TOURISTIC"))
+	{
+		poitype =  TOURISTIC;
+		return true;
+	}
+	else if(!s.compare("GASSTATION"))
+	{
+		poitype =  GASSTATION;
+		return true;
+	}
+	else if(!s.compare("UNIVERSITY"))
+	{
+		poitype =  UNIVERSITY;
+		return true;
+	}
+	else
+	{
+		poitype =  NOTYPE;
+		return false;
+	}
+}
+
+string removeSpaces(std::string readField)
+{
+	readField.erase(0,readField.find_first_not_of(" "));
+	readField.erase(readField.find_last_not_of(" ")+1,string::npos);
+
+	return readField;
+}
+
+bool checkCoordinates(double latitude,double longitude)
+{
+	CWaypoint wp;
+	return wp.set("TEST",latitude,longitude);
+}
+
+std::string numberToString(double num)
+{
+	string stringNumber;
+	ostringstream number;
+	number<<num;
+	stringNumber=number.str();
+	number.str("");
+	number.clear();
+	return stringNumber;
+}
+
+std::string toUpperCase(std::string str)
+{
+	char *newStr = new char[str.length()];
+	for(unsigned int i=0;i<str.length();++i)
+	{
+		if(!isalpha(str[i]) && str[i]!=' ')
+		{
+			return str;
+		}
+		newStr[i]=toupper(str[i]);
+	}
+	return newStr;
+}

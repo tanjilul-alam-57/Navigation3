@@ -1,0 +1,49 @@
+{
+  "waypoints":[
+    {
+      "name":"Amsterdam1",
+      "latitude":52.3731,
+      "longitude":4.8922
+    },
+    {
+      "name":"Berlin",
+      "latitude":52.5166,
+      "longitude":13.4
+    },
+    {
+      "name":"Berlin1",
+      "latitude":52.5166,
+      "longitude":13.4
+    }
+  ],
+  "pois":[
+    {
+      "name":"Dieburg",
+      "latitude":52.51,
+      "longitude":13.4,
+      "type":"RESTAURANT",
+      "description":"Dieburg City Center"
+    },
+    {
+      "name":"Dieburg3",
+      "latitude":52.51,
+      "longitude":13.4,
+      "type":"RESTAURANT",
+      "description":"Dieburg City Center"
+    },
+    {
+      "name":"Sitte",
+      "latitude":11,
+      "longitude":22,
+      "type":"RESTAURANT",
+      "description":"More expensive but also good"
+    },
+    {
+      "name":"Sitte2",
+      "latitude":11,
+      "longitude":22,
+      "type":"RESTAURANT",
+      "description":"More expensive but also good"
+    }
+  ]
+}
